@@ -1,0 +1,14 @@
+from c.o		; from something to do with lattice - you need it anyway
+
+I:\tank2\vectank.o
+I:\tank2\joystick.o
+I:\tank2\CASM.o	; from the assembly code
+I:\tank2\CGRAPHIC.o; from the graphics C code
+
+lib lcg.lib	; and normal GEM library
+lib lc.lib	; with standard C library
+
+verbose		; noisy link flag
+xaddsym		; HiSoft extended symbols in the executable
+
+to .prg		; force a GEM output type
